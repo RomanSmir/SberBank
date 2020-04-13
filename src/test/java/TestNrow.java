@@ -1,4 +1,5 @@
 import com.sun.tools.hat.internal.util.Comparer;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -17,15 +18,16 @@ public class TestNrow {
     @BeforeTest
     public void newTableForTest() {
         PersonDbManager personDbManager = new PersonDbManager();
-        personDbManager.dropTable();
         personDbManager.createTable();
-        roman.setAge(1);
+        roman.setAge(120);
         roman.setName("roman");
-        andrey.setAge(2);
+        andrey.setAge(200);
         andrey.setName("andrey");
         vasia.setAge(99);
         vasia.setName("vasia");
     }
+
+
 
 
     @Test
@@ -46,45 +48,24 @@ public class TestNrow {
             Assert.assertEquals(curentOutput.getName(), curentInpunt.getName());
             Assert.assertEquals(curentOutput.getAge(), curentInpunt.getAge());
         }
-
     }
+
     @Test
     public void testMaxAge() {
         PersonDbManager personDbManager = new PersonDbManager();
         List<Person> output = personDbManager.selectPersons();
-        for (int i = 0; i < output.size(); i++) {
-            Person curentOutput = output.get(i);
-            System.out.println(curentOutput);
-
-            List<Integer> ageList = new ArrayList<Integer>();
-            ageList.add(curentOutput.getAge());
-            ageList.add(curentOutput.getAge());
-            ageList.add(curentOutput.getAge());
-            Stream<Integer> stream = ageList.stream();
-            Optional<Integer> max = stream.max((val1, val2) -> {
-                return val1.compareTo(val2);
-            });
-            Integer maxAge = max.get();
-            System.out.println(maxAge + " лет самому старому из списка");
-        }
+        Comparator<Person> comparator = Comparator.comparing(Person::getAge);
+        Person maxObject = output.stream().max(comparator).get();
+        String nameOldPerson = maxObject.getName();
+        System.out.println(nameOldPerson);
     }
-
-    @Test
-    public void testAge() {
+    @AfterTest
+    public void dropTable() {
         PersonDbManager personDbManager = new PersonDbManager();
-        Comparator<Person> pcomp = new Person().thenComparing(new Person());
-        TreeSet<Person> people = new TreeSet(pcomp);
-        people.add(roman);
-        people.add(andrey);
-        people.add(vasia);
-
-        for (Person p : people) {
-
-            //System.out.println(p.getName() + " " + p.getAge());
-        }
-
+        personDbManager.dropTable();
     }
 }
+
 
 
 
