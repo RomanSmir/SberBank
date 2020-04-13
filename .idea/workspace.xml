@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6fb7152-ec38-4191-b16b-83bdcd02176e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PersonDbManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersonDbManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PersonDbManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PersonDbManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNrow.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PersonDbManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="39">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586804917721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586815054924" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -289,9 +284,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestNrow" />
+        <item itemvalue="TestNG.TestNrow.testInRow" />
         <item itemvalue="TestNG.TestNrow.testMaxAge" />
         <item itemvalue="TestNG.TestNrow.testAge" />
-        <item itemvalue="TestNG.TestNrow.testInRow" />
         <item itemvalue="TestNG.TestNrow.testTest" />
       </list>
     </recent_temporary>
@@ -307,37 +302,52 @@
       <option name="presentableId" value="Default" />
       <updated>1586352646873</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1586809289246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586809289246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FinalHomeWork">
+      <created>1586814958982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586814958982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNrow - 2020.04.13 at 21h 48m 54s.xml">
+    <history-entry file="TestNrow - 2020.04.14 at 00h 33m 44s.xml">
       <configuration name="TestNrow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNrow - 2020.04.13 at 21h 49m 50s.xml">
-      <configuration name="TestNrow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow_testInRow - 2020.04.13 at 21h 51m 00s.xml">
-      <configuration name="TestNrow.testInRow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow_testAge - 2020.04.13 at 21h 51m 07s.xml">
-      <configuration name="TestNrow.testAge" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow_testAge - 2020.04.13 at 21h 51m 41s.xml">
-      <configuration name="TestNrow.testAge" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow - 2020.04.13 at 21h 54m 04s.xml">
-      <configuration name="TestNrow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow - 2020.04.13 at 21h 55m 30s.xml">
-      <configuration name="TestNrow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow - 2020.04.13 at 21h 58m 28s.xml">
-      <configuration name="TestNrow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNrow_testMaxAge - 2020.04.13 at 22h 04m 19s.xml">
+    <history-entry file="TestNrow_testMaxAge - 2020.04.14 at 00h 42m 14s.xml">
       <configuration name="TestNrow.testMaxAge" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNrow - 2020.04.13 at 22h 04m 29s.xml">
+    <history-entry file="TestNrow_testInRow - 2020.04.14 at 00h 42m 32s.xml">
+      <configuration name="TestNrow.testInRow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow_testMaxAge - 2020.04.14 at 00h 43m 19s.xml">
+      <configuration name="TestNrow.testMaxAge" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow_testInRow - 2020.04.14 at 00h 43m 51s.xml">
+      <configuration name="TestNrow.testInRow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow - 2020.04.14 at 00h 44m 01s.xml">
+      <configuration name="TestNrow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow_testMaxAge - 2020.04.14 at 00h 44m 25s.xml">
+      <configuration name="TestNrow.testMaxAge" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow_testInRow - 2020.04.14 at 00h 47m 30s.xml">
+      <configuration name="TestNrow.testInRow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow - 2020.04.14 at 00h 52m 14s.xml">
+      <configuration name="TestNrow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNrow - 2020.04.14 at 00h 52m 19s.xml">
       <configuration name="TestNrow" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -410,6 +420,11 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="FinalHomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="FinalHomeWork" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -481,10 +496,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PersonDbManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="39">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -493,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNrow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+        <state relative-caret-position="315">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

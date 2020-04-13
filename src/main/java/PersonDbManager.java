@@ -102,15 +102,4 @@ public class PersonDbManager {
 
         return personList;
     }
-
-
-    List<Person> insertPersons(Person person,Person personn, Person personnn) {
-        List<Person> personList = new ArrayList<>();
-        personList.add(person);
-        personList.add(personn);
-        personList.add(personnn);
-
-        return personList;
-    }
-
 }

@@ -18,6 +18,7 @@ public class TestNrow {
     @BeforeTest
     public void newTableForTest() {
         PersonDbManager personDbManager = new PersonDbManager();
+        personDbManager.dropTable();
         personDbManager.createTable();
         roman.setAge(120);
         roman.setName("roman");
@@ -58,11 +59,6 @@ public class TestNrow {
         Person maxObject = output.stream().max(comparator).get();
         String nameOldPerson = maxObject.getName();
         System.out.println(nameOldPerson);
-    }
-    @AfterTest
-    public void dropTable() {
-        PersonDbManager personDbManager = new PersonDbManager();
-        personDbManager.dropTable();
     }
 }
 
