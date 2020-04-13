@@ -1,4 +1,6 @@
-public class Person {
+import java.util.Comparator;
+
+public class Person implements Comparator<Person> {
 
 
     private long uid;
@@ -33,12 +35,25 @@ public class Person {
     }
 
     public int getAge() {
-        return age ;
+        return age;
     }
 
     public void setAge(int age) {
         this.age = age;
     }
+
+
+
+        public int compare(Person a, Person b) {
+
+            if (a.getAge() > b.getAge())
+                return 1;
+            else if (a.getAge() < b.getAge())
+                return -1;
+            else
+                return 0;
+        }
+
 
     @Override
     public String toString() {

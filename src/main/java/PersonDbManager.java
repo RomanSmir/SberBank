@@ -1,3 +1,5 @@
+import com.mysql.jdbc.ResultSetRow;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -54,21 +56,19 @@ public class PersonDbManager {
                 "jdbc:mysql://127.0.0.1:3306/test?useSSL=false", "root", "Finecut1988");
              PreparedStatement preparedStatement = conn.prepareStatement(SQL_INSERT)) {
 
-            preparedStatement.setString(1, person.getName());
-            preparedStatement.setInt(2, person.getAge());
-
+                preparedStatement.setString(1, person.getName());
+                preparedStatement.setInt(2, person.getAge());
 
             int row = preparedStatement.executeUpdate();
 
             // rows affected
-            System.out.println(row); // 1
+            //System.out.println(row); // 1
 
         } catch (SQLException e) {
             System.err.format("SQL State: %s\n%s", e.getSQLState(), e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 
     }
 
@@ -91,7 +91,7 @@ public class PersonDbManager {
                 obj.setName(name);
                 obj.setAge(age);
                 personList.add(obj);
-                System.out.println(obj);
+                //System.out.println(obj);
             }
 
         } catch (SQLException e) {
@@ -102,4 +102,15 @@ public class PersonDbManager {
 
         return personList;
     }
+
+
+    List<Person> insertPersons(Person person,Person personn, Person personnn) {
+        List<Person> personList = new ArrayList<>();
+        personList.add(person);
+        personList.add(personn);
+        personList.add(personnn);
+
+        return personList;
+    }
+
 }
